@@ -1,0 +1,37 @@
+Arguments: 
+  /home/nkululeko/.nvm/versions/node/v18.13.0/bin/node /home/nkululeko/.nvm/versions/node/v18.13.0/bin/yarn add @babel/core @babel/preset-env postcss autoprefixer browser-sync cssnano dart-sass gulp gulp-babel gulp-postcss gulp-sass gulp-terser sass
+
+PATH: 
+  /home/nkululeko/anaconda3/bin:/home/nkululeko/.local/bin:/home/nkululeko/.nvm/versions/node/v18.13.0/bin:/home/nkululeko/anaconda3/bin:/home/nkululeko/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.13.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: EPERM: operation not permitted, symlink '../../../parser/bin/babel-parser.js' -> '/media/nkululeko/E386-BE41/Front-End Development/Projects/newsletter-sign-up/node_modules/@babel/core/node_modules/.bin/parser'
+
+npm manifest: 
+  {
+    "name": "newsletter-sign-up",
+    "version": "1.0.0",
+    "description": "![Design preview for the Newsletter sign-up form with success message coding challenge](./design/desktop-preview.jpg)",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
