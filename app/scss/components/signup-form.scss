@@ -1,12 +1,12 @@
 @use "../util/" as *;
 
 .signup-form {
-    background-color: white;
     color: var(--dark-slate-grey);
-    margin: rem(180) auto 0;
-    @include breakpoint(medium) {
+
+    @include breakpoint(large) {
+        background-color: white;
         margin: rem(180) auto 0;
         padding: rem(20);
-        background-color: white;
+        border-radius: rem(20);
     }
 }
