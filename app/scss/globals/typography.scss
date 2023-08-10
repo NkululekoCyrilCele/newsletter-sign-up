@@ -6,7 +6,7 @@ h1 {
     font-weight: 700;
     line-height: 1.2;
     margin-bottom: rem(24);
-    
+
     @include breakpoint(large) {
         font-size: rem(38);
         font-weight: 700;
