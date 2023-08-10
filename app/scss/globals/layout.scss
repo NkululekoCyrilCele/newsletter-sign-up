@@ -10,7 +10,7 @@
     background-size: contain;
 
     @include breakpoint(large) {
-        padding: 0;
+        padding: rem(20);
         background-color: var(--dark-grey-slate);
         background-image: none;
     }

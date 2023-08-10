@@ -2,17 +2,35 @@
 
 h1 {
     margin-top: 0;
+    padding-top: rem(250);
     font-size: rem(32);
     font-weight: 700;
     line-height: 1.2;
     margin-bottom: rem(24);
 
     @include breakpoint(large) {
+        padding-top: 0;
         font-size: rem(38);
         font-weight: 700;
     }
 }
 
+p {
+    @include breakpoint(medium) {
+        margin-right: rem(350);
+    }
+}
+
 ul {
     list-style-type: none;
+}
+
+li {
+    margin-bottom: rem(16);
+    margin-left: rem(-40);
+
+    @include breakpoint(medium) {
+        margin-bottom: rem(16);
+        margin-left: rem(-40);
+    }
 }

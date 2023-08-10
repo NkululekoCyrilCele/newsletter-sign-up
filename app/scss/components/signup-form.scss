@@ -6,6 +6,7 @@
 
     @include breakpoint(large) {
         background-color: white;
+        height: 60vh;
         margin: rem(180) auto 0;
         padding: rem(20);
         border-radius: rem(20);
