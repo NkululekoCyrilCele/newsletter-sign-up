@@ -2,11 +2,16 @@
 
 .signup-form {
     color: var(--dark-slate-grey);
+    background-image: none;
 
     @include breakpoint(large) {
         background-color: white;
         margin: rem(180) auto 0;
         padding: rem(20);
         border-radius: rem(20);
+        background-image: url("/assets/images/illustration-sign-up-desktop.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: right;
     }
 }
