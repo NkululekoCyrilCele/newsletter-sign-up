@@ -3,7 +3,9 @@ html {
     box-sizing: border-box;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
     box-sizing: inherit;
 }
 
@@ -11,6 +13,6 @@ body {
     margin: 0;
     padding: 0;
     font-family: var(--font-roboto);
-    background-color: var(--dark-slate-grey);
+    background-color: var(--charcoal-grey);
     color: var(--white);
 }

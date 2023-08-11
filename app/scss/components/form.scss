@@ -1,0 +1,35 @@
+@use "../util/" as *;
+
+label {
+    display: block;
+    margin: rem(8) 0;
+    font-weight: 700;
+    font-size: rem(13);
+}
+
+input,
+button {
+    margin: rem(10) 0;
+    border: rem(1) solid var(--grey);
+    border-radius: rem(5);
+    width: 100%;
+    min-height: 3.5em;
+
+    @include breakpoint(large) {
+        margin: rem(10) 0;
+        border: rem(1) solid var(--grey);
+        border-radius: rem(5);
+        width: 50%;
+        min-height: 3.5em;
+    }
+}
+
+button {
+    background-color: var(--dark-slate-grey);
+    color: var(--white);
+    font-weight: 700;
+}
+
+button:hover {
+    background-color: var(--tomato);
+}

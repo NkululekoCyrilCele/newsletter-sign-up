@@ -1,18 +1,22 @@
 @use "../util/" as *;
 
 .signup-form {
-    color: var(--dark-slate-grey);
+    color: var(--charcoal-grey);
     background-image: none;
 
     @include breakpoint(large) {
         background-color: white;
-        height: 60vh;
-        margin: rem(180) auto 0;
-        padding: rem(20);
+        height: 82vh;
+        margin: rem(80) auto 0;
+        padding: rem(60) rem(40);
         border-radius: rem(20);
         background-image: url("/assets/images/illustration-sign-up-desktop.svg");
         background-repeat: no-repeat;
         background-size: contain;
         background-position: right;
+
+        input[type="email"] {
+            display: flex;
+        }
     }
 }
