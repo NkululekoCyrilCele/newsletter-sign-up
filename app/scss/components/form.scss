@@ -32,4 +32,6 @@ button {
 
 button:hover {
     background-color: var(--tomato);
+    box-shadow: 0 rem(10) rem(30) var(--tomato);
+    border: none;
 }
