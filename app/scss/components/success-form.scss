@@ -1,0 +1,52 @@
+@use "../util/" as *;
+
+.success-message {
+    background-color: var(--white);
+    color: var(--charcoal-grey);
+
+    @include breakpoint(large) {
+        background-color: var(--charcoal-grey);
+        height: 60vh;
+        margin: rem(100);
+        padding: rem(20);
+        border-radius: rem(20);
+    }
+}
+
+.success-form {
+    @include breakpoint(large) {
+        background-color: var(--white);
+        height: 70vh;
+        width: 35%;
+        margin: 0 auto;
+        padding: rem(20);
+        border-radius: rem(20);
+    }
+}
+
+.success-form img {
+    @include breakpoint(large) {
+        padding-top: rem(40);
+        padding-left: rem(20);
+    }
+}
+
+.success-form h2 {
+    @include breakpoint(large) {
+        padding: 0 rem(20);
+    }
+}
+
+.success-form p {
+    @include breakpoint(large) {
+        padding: 0 rem(20);
+        width: 100%;
+    }
+}
+
+.success-form button {
+    @include breakpoint(large) {
+        margin-left: rem(20);
+        width: 85%;
+    }
+}
