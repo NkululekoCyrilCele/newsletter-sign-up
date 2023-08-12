@@ -8,7 +8,16 @@ h1 {
     line-height: 1.2;
     margin-bottom: rem(24);
 
+    @include breakpoint-down(small) {
+        margin-top: rem(280);
+    }
+
+    @include breakpoint(medium) {
+        margin-top: rem(280);
+    }
+
     @include breakpoint(large) {
+        margin-top: 0;
         padding-top: 0;
         font-size: rem(38);
         font-weight: 700;
@@ -18,6 +27,7 @@ h1 {
 p {
     @include breakpoint(medium) {
         margin-right: rem(350);
+        width: 100%;
     }
 }
 

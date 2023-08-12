@@ -10,12 +10,16 @@
         background-size: contain;
         background-position: right;*/
         border-radius: rem(20);
-        height: 82vh;
+        height: 52vh;
         margin: rem(80) auto 0;
         padding: rem(60) rem(40);
 
         input[type="email"] {
             display: flex;
         }
+    }
+
+    @include breakpoint(x-large) {
+        height: 52vh;
     }
 }
