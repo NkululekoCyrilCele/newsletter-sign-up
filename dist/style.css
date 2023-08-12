@@ -67,7 +67,7 @@ li {
 
 .container {
     background-color: var(--white);
-    background-image: url(../../../assets/images/illustration-sign-up-mobile.svg);
+    background-image: url(/assets/images/illustration-sign-up-mobile.svg);
     background-repeat: no-repeat;
     background-size: contain;
     margin: 0 auto;
@@ -91,7 +91,7 @@ li {
 @media (min-width:64em) {
     .signup-form {
         background-color: var(--white);
-        background-image: url(../../../assets/images/illustration-sign-up-desktop.svg);
+        background-image: url(/assets/images/illustration-sign-up-desktop.svg);
         background-position: 100%;
         background-repeat: no-repeat;
         background-size: contain;
